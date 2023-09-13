@@ -25,14 +25,14 @@ public class Ruin {
 			{newstartAmount++;
 			}
 			
-			else 
+			else
 			{newstartAmount--;
 			}
 		
-			totalSimulations++;
-			System.out.println("You played " + totalSimulations + " Times")
+			totalSimulatio3ns++;
+			System.out.println("You played uhiuhiuh" + totalSimulations + " Times");
 		
-		startAmount = startAmount 
+		startAmount = startAmount;
 			startAmount--;
 			
 			

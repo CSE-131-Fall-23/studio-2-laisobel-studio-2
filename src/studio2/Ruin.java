@@ -11,7 +11,7 @@ public class Ruin {
 		double startAmount = in.nextDouble();
 		System.out.println("Win Chance (between 0 & 1): ");
 		double winChance = in.nextDouble();
-		System.out.println("Win Limit: ");
+		System.out.println("Win Limit: 23r2w ");
 		double winLimit = in.nextDouble(); 
 		int totalSimulations = 0;
 		

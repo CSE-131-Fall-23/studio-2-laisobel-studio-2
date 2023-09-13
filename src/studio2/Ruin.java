@@ -16,24 +16,26 @@ public class Ruin {
 		int totalSimulations = 0;
 		
 		for (int days = 0; days < 500; days++)
-		{
-		while ((startAmount < winLimit) && (startAmount > 0))
-		{
+			{double newstartAmount = startAmount;
+			while ((startAmount < winLimit) && (startAmount > 0))
+				
+			{
+			
 			if (Math.random() > (1.00 - winChance))
-			{startAmount++;
+			{newstartAmount++;
 			}
 			
 			else 
-			{startAmount--;
+			{newstartAmount--;
 			}
-			
-			startAmount--;
+		
 			totalSimulations++;
-
-		if (startAmount == winLimit)
-			{System.out.println("You played " + totalSimulations + " Times on Day " + days + " You WON, Gamblaah!");}
-		else
-		{System.out.println("You played " + totalSimulations + " Times on Day" + days + " You LOST, Suckaah!");}
+			System.out.println("You played " + totalSimulations + " Times")
+		
+		startAmount = startAmount 
+			startAmount--;
+			
+			
 		}
 		}
 		
